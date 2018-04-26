@@ -6,6 +6,6 @@ import java.util.List;
  * Created by Majkel on 2018-04-19.
  */
 
-public class TrendingList {
+public class TrendingList extends TrendingSingle {
     public List<TrendingSingle> trending;
 }
