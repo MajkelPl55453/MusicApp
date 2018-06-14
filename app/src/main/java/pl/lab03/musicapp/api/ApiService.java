@@ -4,10 +4,11 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by Majkel on 2018-04-19.
+ * Created by W57015 on 2018-04-19.
  */
 
 public class ApiService {
+
     public static ApiClient getService() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://www.theaudiodb.com/api/v1/json/1/")
@@ -16,4 +17,7 @@ public class ApiService {
 
         return retrofit.create(ApiClient.class);
     }
+
+
+
 }

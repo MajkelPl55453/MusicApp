@@ -1,11 +1,11 @@
 package pl.lab03.musicapp.api;
 
-
 /**
- * Created by Majkel on 2018-04-19.
+ * Created by W57015 on 2018-04-19.
  */
 
 public class TrendingSingle {
+
     public int idAlbum;
     public int idArtist;
     public int idTrack;
@@ -17,3 +17,4 @@ public class TrendingSingle {
     public String strTrackThumb;
 
 }
+

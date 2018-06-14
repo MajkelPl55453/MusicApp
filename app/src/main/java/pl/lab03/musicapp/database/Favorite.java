@@ -5,7 +5,7 @@ import java.util.Date;
 import io.realm.RealmObject;
 
 /**
- * Created by Majkel on 2018-05-17.
+ * Created by W57015 on 2018-05-17.
  */
 
 public class Favorite extends RealmObject {
@@ -14,6 +14,7 @@ public class Favorite extends RealmObject {
     private String artist;
     private int trackId;
     private Date date;
+
 
     public String getTrack() {
         return track;
@@ -47,4 +48,3 @@ public class Favorite extends RealmObject {
         this.date = date;
     }
 }
-

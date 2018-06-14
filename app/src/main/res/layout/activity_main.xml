@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1"
+    android:weightSum="2"
     android:orientation="vertical"
     tools:context="pl.lab03.musicapp.MainActivity">
 
@@ -13,11 +13,11 @@
         android:text="@string/top_songs"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"/>
+        android:layout_weight="1"/>
     <Button
         android:id="@+id/bFavorites"
         android:text="@string/favorites"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"/>
+        android:layout_weight="1"/>
 </LinearLayout>
